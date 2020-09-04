@@ -1,0 +1,12 @@
+/*
+數據類型有6+1種：數值(number)、字符串(string)、布林值(boolean)、
+未定義(undefined)、空值(null)、物件(object)、符號(symbol)-ES6新增
+
+原始類型(primitive type)：number、string、boolean
+複合類型(complex type)：object(可概分為狹義object{}、array[]、function)
+*/
+
+// typeof運算符之三：typeof、instanceof、Object.prototype.toString
+
+
+

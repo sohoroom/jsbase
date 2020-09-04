@@ -1,0 +1,48 @@
+﻿/*
+開頭字元需要是ASCII字元(英文大小寫字元)，或是下底線(_)、錢號($)。
+注意，數字不可用於開頭字元。
+接下來的字元可以使用英文字元、數字或下底線(_)。
+大小寫是有差異的。
+名稱不可使用JavaScript語言保留字詞。
+*/
+
+/*
+保留關鍵字：
+
+In JavaScript you cannot use these reserved words as variables, labels, or function names:
+abstract	arguments	await*	boolean
+break	byte	case	catch
+char	class*	const	continue
+debugger	default	delete	do
+double	else	enum*	eval
+export*	extends*	false	final
+finally	float	for	function
+goto	if	implements	import*
+in	instanceof	int	interface
+let*	long	native	new
+null	package	private	protected
+public	return	short	static
+super*	switch	synchronized	this
+throw	throws	transient	true
+try	typeof	var	void
+volatile	while	with	yield
+
+Words marked with* are new in ECMAScript 5 and 6.
+The following reserved words have been removed from the ECMAScript 5/6 standard:
+abstract	boolean	byte	char
+double	final	float	goto
+int	long	native	short
+synchronized	throws	transient	volatile
+
+JavaScript Objects, Properties, and Methods
+You should also avoid using the name of JavaScript built-in objects, properties, and methods:
+Array	Date	eval	function
+hasOwnProperty	Infinity	isFinite	isNaN
+isPrototypeOf	length	Math	NaN
+name	Number	Object	prototype
+String	toString	undefined	valueOf
+
+*/
+
+<!-- 三種註解 //單行 /* */多行 -->
+//上行為HTML碼之註解(Comment)方式
